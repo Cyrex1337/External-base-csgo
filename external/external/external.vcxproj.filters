@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\OffsetManager">
+      <UniqueIdentifier>{311a3163-a6fd-45f0-9d9d-dc6635361a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{5002178a-c0e7-4bc1-9128-9099c08be927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils\RAIIHandle">
+      <UniqueIdentifier>{8c3aece5-5516-4ce6-a5fd-b5496220dafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils\ProcessManager">
+      <UniqueIdentifier>{161273a8-7a9e-4cc6-90be-506fe13eadb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils\MemoryManager">
+      <UniqueIdentifier>{16ba8c81-3d14-4c8b-933d-185c8811464f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Headerdateien\Utils\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Headerdateien\Utils\ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetManager.cpp">
+      <Filter>Headerdateien\OffsetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RAIIHandle.cpp">
+      <Filter>Headerdateien\Utils\RAIIHandle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryManager.hpp">
+      <Filter>Headerdateien\Utils\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.hpp">
+      <Filter>Headerdateien\Utils\ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetManager.hpp">
+      <Filter>Headerdateien\OffsetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RAIIHandle.hpp">
+      <Filter>Headerdateien\Utils\RAIIHandle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
